@@ -1,0 +1,54 @@
+.spain-div {
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+  width: 97%;
+  margin: auto;
+}
+.message-n {
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+
+  height: 6vh;
+  margin-left: 50px;
+  position: relative;
+  align-items: center;
+  top: 50px;
+
+  margin-bottom: 100px;
+}
+.input-ter {
+  margin-left: 50px;
+  position: fixed;
+  border-radius: 10px;
+  border: transparent;
+}
+.input-ter input {
+  border: white;
+}
+.input-ter button {
+  border: white;
+  background-color: #0096ff;
+  color: white;
+}
+.spain-div .message-n {
+}
+@media (max-width: 700px) {
+  .message-n {
+    margin-left: 15px;
+  }
+  .input-ter {
+    margin-left: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .message-n {
+    margin-left: 10px;
+  }
+  .input-ter {
+    margin-left: 10px;
+  }
+}
